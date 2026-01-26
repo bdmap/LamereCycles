@@ -2,28 +2,40 @@
 <html lang="ru">
 
 <head>
-   <title>LamereCycles</title>
+   <title>LamereCycles - Premium Custom Bicycles & Cycling Accessories</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-   <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="LamereCycles - создаем лучшие велосипеды, customized to your exacting demands. Premium bicycles, cycling accessories and repair services.">
+   <meta name="keywords" content="велосипеды, cycling, bicycles, bike shop, cycling accessories, bike repair, custom bikes">
+   <link rel="canonical" href="https://lamerecycles.com/">
+   <meta property="og:title" content="LamereCycles - Premium Custom Bicycles">
+   <meta property="og:description" content="We build only the best bicycles, customized to your exacting demands">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://lamerecycles.com/">
+   <meta property="og:image" content="https://lamerecycles.com/img/Content/about-cycle.png">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="LamereCycles - Premium Custom Bicycles">
+   <meta name="twitter:description" content="We build only the best bicycles, customized to your exacting demands">
+   <meta name="twitter:image" content="https://lamerecycles.com/img/Content/about-cycle.png">
+   
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
    <link rel="stylesheet" href="./css/style.css">
    <link rel="shortcut icon" href="./favicon/favicon.ico">
+   <link rel="preload" href="./img/Icons/header-logo.svg" as="image">
 </head>
 
-
 <body>
-
    <div class="wrapper">
-      <header class="header">
+      <header class="header" role="banner">
          <div class="container">
             <div class="header__row">
-               <a class="header__logo" href="#">
-                  <img src="./img/Icons/header-logo.svg" alt="logo">
+               <a class="header__logo" href="#" aria-label="LamereCycles Home">
+                  <img src="./img/Icons/header-logo.svg" alt="LamereCycles Logo" width="120" height="40">
                </a>
                <div class="header__burger">
                   <span></span>
                </div>
-               <nav class="header__menu">
+               <nav class="header__menu" role="navigation" aria-label="Main Navigation">
                   <ul class="header__list">
                      <li><a class="header__link contact-text" href="#about">About</a></li>
                      <li><a class="header__link contact-text" href="#shop">Shop</a></li>
@@ -31,34 +43,35 @@
                   </ul>
                </nav>
                <div class="header__account">
-                  <form action="#">
-                     <input class="header__input" type="text">
+                  <form action="#" role="search">
+                     <label for="search-input" class="visually-hidden">Search products</label>
+                     <input class="header__input" id="search-input" type="text" placeholder="Search..." aria-label="Search products">
                   </form>
-                  <a class="header__basket" href="#">
-                     <img src="./img/Icons/header-basket.svg" alt="basket">
+                  <a class="header__basket" href="#" aria-label="Shopping cart">
+                     <img src="./img/Icons/header-basket.svg" alt="Shopping cart" width="24" height="24">
                   </a>
-                  <a class="header__user" href="#">
-                     <img src="./img/Icons/header-user.svg" alt="user">
+                  <a class="header__user" href="#" aria-label="User account">
+                     <img src="./img/Icons/header-user.svg" alt="User account" width="24" height="24">
                   </a>
                </div>
             </div>
          </div>
       </header>
-      <main class="content">
+      
+      <main class="content" role="main">
          <section class="about" id="about">
             <div class="container">
                <div class="about__wrapper">
                   <div class="about__row">
                      <div class="about__left">
-
                         <div class="about__title">
-
-                           <img src="./img/Icons/about-logo.svg" alt="logo-big">
+                           <h1 class="visually-hidden">LamereCycles - Premium Custom Bicycles</h1>
+                           <img src="./img/Icons/about-logo.svg" alt="LamereCycles - Premium Custom Bicycles" width="300" height="80">
                         </div>
                         <p class="about__text text">
                            We build only the best, customized to your exacting demands
                         </p>
-                        <button class="about__btn">SHOP NOW</button>
+                        <a href="#shop" class="about__btn">SHOP NOW</a>
                      </div>
                      <div class="about__right">
                         <div class="about__right-wrapper">
@@ -66,17 +79,17 @@
                               <div class="about-slider__wrapper swiper-wrapper">
                                  <div class="about-slider__slide swiper-slide">
                                     <div class="about-slider__img">
-                                       <img src="./img/Content/about-cycle.png" alt="cycle">
+                                       <img src="./img/Content/about-cycle.png" alt="Custom road bicycle LamereCycles Pro model" width="600" height="400">
                                     </div>
                                  </div>
                                  <div class="about-slider__slide swiper-slide">
                                     <div class="about-slider__img">
-                                       <img src="./img/Content/about-cycle.png" alt="cycle">
+                                       <img src="./img/Content/about-cycle.png" alt="Custom mountain bike LamereCycles Trail model" width="600" height="400">
                                     </div>
                                  </div>
                                  <div class="about-slider__slide swiper-slide">
                                     <div class="about-slider__img">
-                                       <img src="./img/Content/about-cycle.png" alt="cycle">
+                                       <img src="./img/Content/about-cycle.png" alt="Custom city bicycle LamereCycles Urban model" width="600" height="400">
                                     </div>
                                  </div>
                               </div>
@@ -86,17 +99,17 @@
                      </div>
                   </div>
                   <div class="about__links">
-                     <a class="about__link" href="#">
-                        <img src="./img/Icons/about-google.svg" alt="">
+                     <a class="about__link" href="#" aria-label="Follow us on Google">
+                        <img src="./img/Icons/about-google.svg" alt="Google" width="32" height="32">
                      </a>
-                     <a class="about__link" href="#">
-                        <img src="./img/Icons/about-twitter.svg" alt="">
+                     <a class="about__link" href="#" aria-label="Follow us on Twitter">
+                        <img src="./img/Icons/about-twitter.svg" alt="Twitter" width="32" height="32">
                      </a>
-                     <a class="about__link" href="#">
-                        <img src="./img/Icons/about-in.svg" alt="">
+                     <a class="about__link" href="#" aria-label="Follow us on LinkedIn">
+                        <img src="./img/Icons/about-in.svg" alt="LinkedIn" width="32" height="32">
                      </a>
-                     <a class="about__link" href="#">
-                        <img src="./img/Icons/about-inst.svg" alt="">
+                     <a class="about__link" href="#" aria-label="Follow us on Instagram">
+                        <img src="./img/Icons/about-inst.svg" alt="Instagram" width="32" height="32">
                      </a>
                   </div>
                </div>
@@ -104,10 +117,9 @@
          </section>
 
          <section class="category">
-
             <div class="container">
                <div class="category__wrapper">
-                  <h2 class="category__title title">Our Most Popular bike category</h2>
+                  <h2 class="category__title title">Our Most Popular Bike Categories</h2>
                   <div class="category-slider swiper-container">
                      <div class="category-slider__wrapper swiper-wrapper">
                         <div class="category-slider__slide swiper-slide">
@@ -117,157 +129,45 @@
                                     <div class="category-slider-in__wrapper swiper-wrapper">
                                        <div class="category-slider-in__slide swiper-slide">
                                           <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
+                                             <img src="./img/Content/category-1.jpg" alt="Road bike detailed view" width="400" height="300">
                                           </div>
                                        </div>
                                        <div class="category-slider-in__slide swiper-slide">
                                           <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
+                                             <img src="./img/Content/category-1.jpg" alt="Road bike side view" width="400" height="300">
                                           </div>
                                        </div>
                                        <div class="category-slider-in__slide swiper-slide">
                                           <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
+                                             <img src="./img/Content/category-1.jpg" alt="Road bike components" width="400" height="300">
                                           </div>
                                        </div>
                                        <div class="category-slider-in__slide swiper-slide">
                                           <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
+                                             <img src="./img/Content/category-1.jpg" alt="Road bike in action" width="400" height="300">
                                           </div>
                                        </div>
                                     </div>
-
                                  </div>
                                  <div class="category-next swiper-button-next"></div>
                                  <div class="category-prev swiper-button-prev"></div>
                               </div>
                               <div class="category-slider__right">
-                                 <img src="./img/Content/category-2.jpg" alt="cycle">
+                                 <img src="./img/Content/category-2.jpg" alt="Road bicycle full view" width="500" height="400">
                               </div>
                            </div>
                         </div>
-                        <div class="category-slider__slide swiper-slide">
-                           <div class="category-slider__img-row">
-                              <div class="category-slider__left-wrapper">
-                                 <div class="category-slider-in swiper-container">
-                                    <div class="category-slider-in__wrapper swiper-wrapper">
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                    </div>
-
-                                 </div>
-                                 <div class="category-next swiper-button-next"></div>
-                                 <div class="category-prev swiper-button-prev"></div>
-                              </div>
-                              <div class="category-slider__right">
-                                 <img src="./img/Content/category-2.jpg" alt="cycle">
-                              </div>
-                           </div>
-                        </div>
-                        <div class="category-slider__slide swiper-slide">
-                           <div class="category-slider__img-row">
-                              <div class="category-slider__left-wrapper">
-                                 <div class="category-slider-in swiper-container">
-                                    <div class="category-slider-in__wrapper swiper-wrapper">
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                    </div>
-
-                                 </div>
-                                 <div class="category-next swiper-button-next"></div>
-                                 <div class="category-prev swiper-button-prev"></div>
-                              </div>
-                              <div class="category-slider__right">
-                                 <img src="./img/Content/category-2.jpg" alt="cycle">
-                              </div>
-                           </div>
-                        </div>
-                        <div class="category-slider__slide swiper-slide">
-                           <div class="category-slider__img-row">
-                              <div class="category-slider__left-wrapper">
-                                 <div class="category-slider-in swiper-container">
-                                    <div class="category-slider-in__wrapper swiper-wrapper">
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                       <div class="category-slider-in__slide swiper-slide">
-                                          <div class="category-slider-in__img">
-                                             <img src="./img/Content/category-1.jpg" alt="">
-                                          </div>
-                                       </div>
-                                    </div>
-
-                                 </div>
-                                 <div class="category-next swiper-button-next"></div>
-                                 <div class="category-prev swiper-button-prev"></div>
-                              </div>
-                              <div class="category-slider__right">
-                                 <img src="./img/Content/category-2.jpg" alt="cycle">
-                              </div>
-                           </div>
-                        </div>
-
                      </div>
                   </div>
                   <div class="category-pagination swiper-pagination"></div>
-
                </div>
             </div>
          </section>
 
-
          <section class="explore" id="shop">
             <div class="container">
                <div class="explore__content">
-                  <h2 class="explore__title title">Explore Our Product</h2>
+                  <h2 class="explore__title title">Explore Our Cycling Products</h2>
                   <div class="explore__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                      sint. Velit officia consequat duis enim velit mollit. </div>
                </div>
@@ -275,103 +175,100 @@
                   <div class="explore__row">
                      <div class="explore__item explore__item--helmet">
                         <div class="explore__item-content">
-                           <p class="explore__item-text">Road helmet </p>
+                           <p class="explore__item-text">Road Helmet Pro</p>
                            <p class="explore__item-price">$60</p>
-
                         </div>
-                        <a class="explore__item-arrow" href="#">
-                           <img src="./img/Icons/explore-arrow.svg" alt="arrow">
+                        <a class="explore__item-arrow" href="#" aria-label="View Road Helmet Pro details">
+                           <img src="./img/Icons/explore-arrow.svg" alt="View details" width="20" height="20">
                         </a>
-                        <img src="./img/Content/explore-helmet.jpg" alt="">
+                        <img src="./img/Content/explore-helmet.jpg" alt="LamereCycles Road Helmet Pro safety certified" width="280" height="280">
                      </div>
                      <div class="explore__item explore__item--bottle">
                         <div class="explore__item-content">
-                           <p class="explore__item-text">Road helmet </p>
-                           <p class="explore__item-price">$60</p>
+                           <p class="explore__item-text">Cycling Water Bottle</p>
+                           <p class="explore__item-price">$15</p>
                         </div>
-                        <a class="explore__item-arrow" href="#">
-                           <img src="./img/Icons/explore-arrow.svg" alt="arrow">
+                        <a class="explore__item-arrow" href="#" aria-label="View Cycling Water Bottle details">
+                           <img src="./img/Icons/explore-arrow.svg" alt="View details" width="20" height="20">
                         </a>
-                        <img src="./img/Content/explore-bottle.jpg" alt="">
+                        <img src="./img/Content/explore-bottle.jpg" alt="Insulated cycling water bottle BPA-free" width="280" height="280">
                      </div>
                      <div class="explore__item explore__item--pump">
                         <div class="explore__item-content">
-                           <p class="explore__item-text">Road helmet </p>
-                           <p class="explore__item-price">$60</p>
+                           <p class="explore__item-text">Mini Bike Pump</p>
+                           <p class="explore__item-price">$35</p>
                         </div>
-                        <a class="explore__item-arrow" href="#">
-                           <img src="./img/Icons/explore-arrow.svg" alt="arrow">
+                        <a class="explore__item-arrow" href="#" aria-label="View Mini Bike Pump details">
+                           <img src="./img/Icons/explore-arrow.svg" alt="View details" width="20" height="20">
                         </a>
-                        <img src="./img/Content/explore-pump.jpg" alt="">
+                        <img src="./img/Content/explore-pump.jpg" alt="Portable mini bike pump for road and mountain bikes" width="280" height="280">
                      </div>
                      <div class="explore__item explore__item--kit">
                         <div class="explore__item-content">
-                           <p class="explore__item-text">Road helmet </p>
-                           <p class="explore__item-price">$60</p>
+                           <p class="explore__item-text">Repair Kit Essential</p>
+                           <p class="explore__item-price">$25</p>
                         </div>
-                        <a class="explore__item-arrow" href="#">
-                           <img src="./img/Icons/explore-arrow.svg" alt="arrow">
+                        <a class="explore__item-arrow" href="#" aria-label="View Repair Kit Essential details">
+                           <img src="./img/Icons/explore-arrow.svg" alt="View details" width="20" height="20">
                         </a>
-                        <img src="./img/Content/explore-kit.jpg" alt="">
+                        <img src="./img/Content/explore-kit.jpg" alt="Bicycle repair kit with tools and patches" width="280" height="280">
                      </div>
-
                   </div>
                </div>
             </div>
          </section>
 
-
          <section class="choose">
             <div class="container">
                <div class="choose__wrapper">
                   <div class="choose__companies">
-                     <a class="choose__img-companies" href="#">
-                        <img src="./img/Icons/choose-tesla.svg" alt="tesla">
+                     <a class="choose__img-companies" href="#" aria-label="Tesla partnership">
+                        <img src="./img/Icons/choose-tesla.svg" alt="Tesla" width="100" height="40">
                      </a>
-                     <a class="choose__img-companies" href="#">
-                        <img src="./img/Icons/choose-docu.svg" alt="docu">
+                     <a class="choose__img-companies" href="#" aria-label="DocuSign partnership">
+                        <img src="./img/Icons/choose-docu.svg" alt="DocuSign" width="100" height="40">
                      </a>
-                     <a class="choose__img-companies" href="#">
-                        <img src="./img/Icons/choose-maze.svg" alt="maze">
+                     <a class="choose__img-companies" href="#" aria-label="Maze partnership">
+                        <img src="./img/Icons/choose-maze.svg" alt="Maze" width="100" height="40">
                      </a>
-                     <a class="choose__img-companies" href="#">
-                        <img src="./img/Icons/choose-uber.svg" alt="uber">
+                     <a class="choose__img-companies" href="#" aria-label="Uber partnership">
+                        <img src="./img/Icons/choose-uber.svg" alt="Uber" width="100" height="40">
                      </a>
-                     <a class="choose__img-companies" href="#">
-                        <img src="./img/Icons/choose-miro.svg" alt="miro">
+                     <a class="choose__img-companies" href="#" aria-label="Miro partnership">
+                        <img src="./img/Icons/choose-miro.svg" alt="Miro" width="100" height="40">
                      </a>
-                     <a class="choose__img-companies" href="#">
-                        <img src="./img/Icons/choose-discord.svg" alt="discord">
+                     <a class="choose__img-companies" href="#" aria-label="Discord partnership">
+                        <img src="./img/Icons/choose-discord.svg" alt="Discord" width="100" height="40">
                      </a>
                   </div>
                   <div class="choose__row">
                      <div class="choose__left">
                         <div class="choose__img">
-                           <img src="./img/Content/choose-cycle.jpg" alt="cycle">
+                           <img src="./img/Content/choose-cycle.jpg" alt="Custom built LamereCycles premium bicycle" width="600" height="400">
                         </div>
                      </div>
                      <div class="choose__right">
-                        <h3 class="choose__title title">Why choose Lamere?</h3>
+                        <h3 class="choose__title title">Why Choose Lamere Cycles?</h3>
                         <p class="choose__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                            sint. Velit officia consequat duis enim velit mollit. </p>
-                        <a class="choose__link text" href="#">Read more</a>
+                        <a class="choose__link text" href="#">Read more about our quality standards</a>
                      </div>
                   </div>
                   <div class="choose__products">
                      <div class="choose__product">
-                        <h4 class="choose__product-title title">Service Repiar</h4>
+                        <h4 class="choose__product-title title">Professional Bike Repair</h4>
                         <p class="choose__product-text text">
                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint Velit officia.
                         </p>
                      </div>
                      <div class="choose__product">
-                        <h4 class="choose__product-title title">Service Repiar</h4>
+                        <h4 class="choose__product-title title">Custom Bike Fitting</h4>
                         <p class="choose__product-text text">
                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint Velit officia.
                         </p>
                      </div>
                      <div class="choose__product">
-                        <h4 class="choose__product-title title">Service Repiar</h4>
+                        <h4 class="choose__product-title title">Premium Components</h4>
                         <p class="choose__product-text text">
                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint Velit officia.
                         </p>
@@ -381,27 +278,28 @@
             </div>
          </section>
       </main>
+      
       <footer class="footer" id="contact">
          <div class="container">
             <div class="footer__wrapper">
                <div class="footer__row">
                   <div class="footer__subscribe">
-                     <h3 class="footer__title">Subscribe Our Newsletter</h3>
+                     <h3 class="footer__title">Subscribe to Our Cycling Newsletter</h3>
                      <div class="footer__input">
-                        <input type="text" placeholder="Your email address">
+                        <input type="email" placeholder="Your email address" aria-label="Your email address for newsletter">
                      </div>
                      <div class="footer__logos">
-                        <a class="footer__logo" href="#">
-                           <img src="./img/Icons/footer-inst.svg" alt="inst">
+                        <a class="footer__logo" href="#" aria-label="Follow us on Instagram">
+                           <img src="./img/Icons/footer-inst.svg" alt="Instagram" width="24" height="24">
                         </a>
-                        <a class="footer__logo" href="#">
-                           <img src="./img/Icons/footer-dribbble.svg" alt="dribble">
+                        <a class="footer__logo" href="#" aria-label="Follow us on Dribbble">
+                           <img src="./img/Icons/footer-dribbble.svg" alt="Dribbble" width="24" height="24">
                         </a>
-                        <a class="footer__logo" href="#">
-                           <img src="./img/Icons/footer-twitter.svg" alt="twitter">
+                        <a class="footer__logo" href="#" aria-label="Follow us on Twitter">
+                           <img src="./img/Icons/footer-twitter.svg" alt="Twitter" width="24" height="24">
                         </a>
-                        <a class="footer__logo" href="#">
-                           <img src="./img/Icons/footer-youtube.svg" alt="youtube">
+                        <a class="footer__logo" href="#" aria-label="Follow us on YouTube">
+                           <img src="./img/Icons/footer-youtube.svg" alt="YouTube" width="24" height="24">
                         </a>
                      </div>
                   </div>
@@ -432,9 +330,23 @@
          </div>
       </footer>
    </div>
+   
    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    <script src="./js/jquery-3.6.3.min.js"></script>
    <script src="./js/main.js"></script>
+   
+   <style>
+   .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+   }
+   </style>
 </body>
-
 </html>
