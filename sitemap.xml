@@ -1,83 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-   
 
    <url>
-      <loc>https://lamerecycles.com/</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/</loc>
       <lastmod>2023-11-01</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
-      <xhtml:link rel="alternate" hreflang="ru" href="https://lamerecycles.com/" />
-      <xhtml:link rel="alternate" hreflang="en" href="https://lamerecycles.com/en/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://lamere-cycles-91wl.vercel.app/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://lamere-cycles-91wl.vercel.app/en/" />
    </url>
 
    <url>
-      <loc>https://lamerecycles.com/about</loc>
-      <lastmod>2023-10-15</lastmod>
+      <loc>https://lamere-cycles-91wl.vercel.app/#about</loc>
+      <lastmod>2023-11-01</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://lamere-cycles-91wl.vercel.app/#about" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://lamere-cycles-91wl.vercel.app/en/#about" />
    </url>
-   
 
    <url>
-      <loc>https://lamerecycles.com/shop</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/#shop</loc>
       <lastmod>2023-11-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://lamere-cycles-91wl.vercel.app/#shop" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://lamere-cycles-91wl.vercel.app/en/#shop" />
    </url>
-   
-  
+
    <url>
-      <loc>https://lamerecycles.com/shop/road-bikes</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/#contact</loc>
+      <lastmod>2023-09-01</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://lamere-cycles-91wl.vercel.app/#contact" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://lamere-cycles-91wl.vercel.app/en/#contact" />
+   </url>
+
+   <!-- Временные или планируемые страницы (если они существуют или будут созданы) -->
+   <url>
+      <loc>https://lamere-cycles-91wl.vercel.app/road-bikes</loc>
       <lastmod>2023-10-20</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
    </url>
    
    <url>
-      <loc>https://lamerecycles.com/shop/mountain-bikes</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/mountain-bikes</loc>
       <lastmod>2023-10-20</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
    </url>
    
    <url>
-      <loc>https://lamerecycles.com/shop/accessories</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/accessories</loc>
       <lastmod>2023-10-25</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
    </url>
    
-  
    <url>
-      <loc>https://lamerecycles.com/contact</loc>
-      <lastmod>2023-09-01</lastmod>
-      <changefreq>yearly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   
-
-   <url>
-      <loc>https://lamerecycles.com/services/repair</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/services/repair</loc>
       <lastmod>2023-10-10</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    
    <url>
-      <loc>https://lamerecycles.com/services/fitting</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/services/fitting</loc>
       <lastmod>2023-10-10</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    
-
    <url>
-      <loc>https://lamerecycles.com/blog</loc>
+      <loc>https://lamere-cycles-91wl.vercel.app/blog</loc>
       <lastmod>2023-10-30</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://lamere-cycles-91wl.vercel.app/category</loc>
+      <lastmod>2023-11-01</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   <url>
+      <loc>https://lamere-cycles-91wl.vercel.app/explore</loc>
+      <lastmod>2023-11-01</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
    </url>
 
 </urlset>
